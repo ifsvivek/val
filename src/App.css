@@ -1,3 +1,19 @@
+body{
+  background-color: white;
+}
+
+.text{
+  color: black;
+}
+
+.yes-button{
+  margin: 20px;
+  background-color: green;
+}
+.No-button{
+  margin: 20px;
+  background-color: red;
+}
 .valentine-container {
   display: flex;
   flex-direction: column;
