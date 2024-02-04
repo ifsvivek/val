@@ -1,30 +1,42 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Valentine's Day Decision Maker
 
-Currently, two official plugins are available:
+Welcome to the Valentine's Day Decision Maker! This playful website lets you make a choice between "Yes" and "No" with a touch of humor and emotion.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Two Buttons:** Click on the "Yes" or "No" buttons to make your choice.
+- **No Button Responses:** If you choose "No," be prepared for a series of amusing and heartfelt responses.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Usage
 
-- Configure the top-level `parserOptions` property like this:
+1. Open the website in your web browser.
+2. Click on either the "Yes" or "No" button to make your Valentine's Day decision.
+3. Enjoy the responses and have fun with the lighthearted content.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: "latest",
-    sourceType: "module",
-    project: ["./tsconfig.json", "./tsconfig.node.json"],
-    tsconfigRootDir: __dirname,
-  },
-};
+## Phrases
+
+The "No" button triggers a variety of responses, including:
+- "Are you sure?"
+- "Really sure?"
+- "Pinkie please"
+- "Don't do this to me"
+- "I'm gonna cry..."
+- "You're breaking my heart 🥹"
+- And many more!
+
+Feel free to explore the different reactions by clicking the "No" button multiple times.
+
+## Customize
+
+You can customize the phrases or add more according to your preference. Find the phrases array in the code and make adjustments.
+
+```javascript
+const phrases = [
+  // Add your customized phrases here
+];
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Author
+
+[ifsvivek](https://github.com/ifsvivek) and [spidey](https://github.com/mcspidey95)
